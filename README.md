@@ -67,7 +67,9 @@ java HelloWorldServer
 Access the App
 
 Visit in browser:
+```bash
 http://<EC2-Public-IP>:8080
+```
 You should see:
 ```bash
 Hello, World from SRAVYA!
