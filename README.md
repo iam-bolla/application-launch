@@ -32,3 +32,42 @@ Check Output in Browser
 ```
 Visit:
 http://localhost:8080
+🔹 AWS EC2 Deployment
+Launch an EC2 Instance
+
+Use Amazon Linux or Ubuntu
+
+Allow port 8080 in the Security Group settings
+
+SSH into the Instance
+
+```bash
+ssh -i your-key.pem ec2-user@<your-ec2-ip>
+```
+Install Java on EC2
+
+For Ubuntu:
+
+```bash
+sudo apt update
+sudo apt install default-jdk -y
+```
+
+clone the repo into instance
+```bash
+git clone repo-link
+```
+Compile and Run on EC2
+
+```bash
+javac HelloWorldServer.java
+java HelloWorldServer
+```
+Access the App
+
+Visit in browser:
+http://<EC2-Public-IP>:8080
+You should see:
+```bash
+Hello, World from SRAVYA!
+```
