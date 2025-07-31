@@ -32,6 +32,7 @@ Check Output in Browser
 ```
 Visit:
 http://localhost:8080
+---
 🔹 AWS EC2 Deployment
 Launch an EC2 Instance
 
