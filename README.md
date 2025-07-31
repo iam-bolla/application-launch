@@ -6,7 +6,7 @@ This is a lightweight Java HTTP server that returns "Hello, World!" on browser a
 
 ## ✅ 1. Tools & Requirements
 
-- **Java Development Kit (JDK)**: Install Java 8 or later
+- **Java Development Kit (JDK)**: Install Java 17 or later
 - **AWS Account**
 - **EC2 Instance**: Amazon Linux or Ubuntu
 - **Security Group Rule**: Allow inbound traffic on port **8080** (or use port **80**)
@@ -29,6 +29,6 @@ Run Locally for Testing
 
 java HelloWorldServer
 Check Output in Browser
-
+```
 Visit:
 http://localhost:8080
