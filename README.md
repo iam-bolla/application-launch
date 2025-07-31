@@ -74,3 +74,8 @@ You should see:
 ```bash
 Hello, World from SRAVYA!
 ```
+Optional: Auto-start with Systemd or Run in Background
+To run in the background:
+```bash
+nohup java HelloWorldServer &
+```
